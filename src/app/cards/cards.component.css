@@ -1,0 +1,6 @@
+.countrywithlowpopulation{
+    border: solid 3px blue;
+}
+.countrywithhighpopulation{
+    border: red 3px dashed;
+}

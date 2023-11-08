@@ -1,0 +1,23 @@
+<div class="container pt-5">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-3">
+            <div class="mb-3">
+                <h2 class="text-primary">Country Info</h2>
+          </div>
+        <div class="mb-3">
+            <input [(ngModel)]="CountryToBeAdded.name" class="form-control" id="name" placeholder="enter country name">
+          </div>
+          <div class="mb-3">
+            <input [(ngModel)]="CountryToBeAdded.population" type="number" class="form-control" id="population" placeholder="enter population">
+          </div>
+          <div class="mb-3">
+            <input [(ngModel)]="CountryToBeAdded.imgsrc" class="form-control" id="img" placeholder="images source">
+          </div>
+          <div class="mb-3">
+            <div class="btn btn-primary d-flex" (click)="SaveCountry()">Add ctr</div>
+          </div>
+        <div class="col-4"></div>
+    </div>
+</div>
+
